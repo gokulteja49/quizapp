@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.quiz-summary-layout {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.quiz-summary-left, .quiz-summary-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.quiz-summary-left {
+    background: linear-gradient(135deg, rgba(30, 58, 138, 0.9), rgba(59, 130, 246, 0.9)), 
+            url('/download1.jpg');
+
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.quiz-summary-right {
+    background: linear-gradient(135deg, rgba(80, 10, 10, 0.9), rgba(230, 190, 138, 0.9)), 
+                url('/download1.jpg');
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.retry-button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.retry-button {
+    padding: 14px 22px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #8B0000, #FFD700);
+    color: white;
+    box-shadow: 0 4px 12px rgba(139, 0, 0, 0.6);
+    transition: all 0.3s ease-in-out;
+}
+
+.retry-button:hover {
+    background: linear-gradient(135deg, #600000, #FFC107);
+    transform: scale(1.08);
+}
+
+.answer-summary-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.answer-box {
+    padding: 18px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.answer-box.correct {
+    background-color: rgba(46, 204, 113, 0.9);
+}
+
+.answer-box.incorrect {
+    background-color: rgba(176, 0, 32, 0.9);
+}
+
+.quiz-summary-left, .quiz-summary-right {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.6) transparent;
+}
+
+@media (max-width: 768px) {
+    .quiz-summary-layout {
+        flex-direction: column;
+    }
+
+    .quiz-summary-left, .quiz-summary-right {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    pointer-events: none;
+}
