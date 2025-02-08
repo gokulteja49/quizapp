@@ -38,16 +38,11 @@ Start the React development server:
 `npm start`
 The app will be available at http://localhost:3000.
 
-Libraries Used
-`Frontend (React)
-react	^19.0.0	
-react-dom	^19.0.0
-react-router-dom	^7.1.5
-react-confetti	^6.2.2 
-react-scripts	5.0.1	
-web-vitals	^4.2.4`	
+###Web App Interface
+![image](https://github.com/user-attachments/assets/05017e0f-6649-4d31-9553-0ac759b2e692)
+Results Page Interface
+![Screenshot 2025-02-08 223107](https://github.com/user-attachments/assets/4c4ebfc9-4ea5-438f-bdf1-28ac794890b4)
 
-Backend (Express)
-`express	^4.21.2	
-cors	^2.8.5	
-node-fetch	^3.3.2`	
+
+
+
