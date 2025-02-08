@@ -8,12 +8,15 @@ Ensure you have the following installed:
 Node.js (Latest LTS recommended)
 Git
 Installation
-Clone the repository
 
+
+Clone the repository
 
 
 `git clone https://github.com/your-username/your-repository.git`
 `cd your-repository`
+
+
 Install dependencies
 
 Install both frontend and backend dependencies:
