@@ -26,7 +26,8 @@ Install both frontend and backend dependencies:
 
 `npm install`
 
-Running the Application
+### Running the Application
+
 Start the Backend (Express Server)
 
 Navigate to the backend directory :
@@ -39,7 +40,7 @@ Start the server:
 
 The server will run on http://localhost:5000 (or another port if configured).
 
-Start the Frontend (React App)
+### Start the Frontend (React App)
 
 Open a new terminal and navigate to root folder:
 
