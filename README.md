@@ -38,8 +38,10 @@ Start the server:
 `node server.js`
 
 The server will run on http://localhost:5000 (or another port if configured).
+
 Start the Frontend (React App)
-Open a new terminal and navigate to the frontend directory (if applicable):
+
+Open a new terminal and navigate to root folder:
 
 `cd `
 Start the React development server:
