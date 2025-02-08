@@ -1,8 +1,8 @@
-#### Project Setup
+# Project Setup
 
 Follow these steps to set up and run the project locally.
 
-## Prerequisites
+### Prerequisites
 Ensure you have the following installed:
 
 Node.js (Latest LTS recommended)
