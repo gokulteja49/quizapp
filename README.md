@@ -6,9 +6,10 @@ Follow these steps to set up and run the project locally.
 Ensure you have the following installed:
 
 Node.js (Latest LTS recommended)
-Git
-Installation
 
+Git
+
+### Installation
 
 Clone the repository
 
