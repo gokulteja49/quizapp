@@ -32,6 +32,7 @@ Start the Backend (Express Server)
 Navigate to the backend directory :
 
 `cd backend`
+
 Start the server:
 
 `node server.js`
