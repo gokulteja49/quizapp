@@ -9,6 +9,7 @@ Node.js (Latest LTS recommended)
 
 Git
 
+
 ### Installation
 
 Clone the repository
@@ -18,7 +19,7 @@ Clone the repository
 `cd your-repository`
 
 
-Install dependencies
+### Install dependencies
 
 Install both frontend and backend dependencies:
 
@@ -26,6 +27,7 @@ Install both frontend and backend dependencies:
 
 Running the Application
 Start the Backend (Express Server)
+
 Navigate to the backend directory (if applicable):
 
 `cd backend`
