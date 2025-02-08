@@ -28,7 +28,7 @@ Install both frontend and backend dependencies:
 Running the Application
 Start the Backend (Express Server)
 
-Navigate to the backend directory (if applicable):
+Navigate to the backend directory :
 
 `cd backend`
 Start the server:
